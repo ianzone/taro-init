@@ -15,14 +15,9 @@
     "build:h5": "taro build --type h5",
     "dev:weapp": "taro build --type weapp --watch",
     "dev:alipay": "taro build --type alipay --watch",
-    "dev:h5": "taro build --type h5 --watch",
-    "lint": "biome check --fix src --reporter summary",
-    "commit": "git add -A && git-cz"
+    "dev:h5": "taro build --type h5 --watch"
   },
-  "browserslist": [
-    "defaults and fully supports es6-module",
-    "maintained node versions"
-  ],
+  "browserslist": ["defaults and fully supports es6-module", "maintained node versions"],
   "author": "",
   "dependencies": {
     "@babel/runtime": "^7.26.0",
@@ -34,8 +29,8 @@
     "@tarojs/taro": "4.0.8",
     "@tarojs/plugin-framework-react": "4.0.8",
     "@tarojs/react": "4.0.8",
-    "react-dom": "^18.3.1",
-    "react": "^18.3.1"
+    "react-dom": "18.3.1",
+    "react": "18.3.1"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
@@ -46,7 +41,7 @@
     "@tarojs/taro-loader": "4.0.8",
     "@tarojs/webpack5-runner": "4.0.8",
     "@types/node": "^22.10.1",
-    "@types/react": "^18.3.14",
+    "@types/react": "18.3.1",
     "@types/webpack-env": "^1.18.5",
     "babel-preset-taro": "4.0.8",
     "postcss": "^8.4.49",
