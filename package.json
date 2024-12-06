@@ -1,14 +1,6 @@
 {
   "name": "taro-init",
   "version": "1.0.0",
-  "private": true,
-  "description": "",
-  "templateInfo": {
-    "name": "default",
-    "typescript": true,
-    "css": "None",
-    "framework": "React"
-  },
   "scripts": {
     "build:weapp": "taro build --type weapp",
     "build:alipay": "taro build --type alipay",
@@ -18,7 +10,6 @@
     "dev:h5": "taro build --type h5 --watch"
   },
   "browserslist": ["defaults and fully supports es6-module", "maintained node versions"],
-  "author": "",
   "dependencies": {
     "@babel/runtime": "^7.26.0",
     "@tarojs/components": "4.0.8",
